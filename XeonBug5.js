@@ -2617,6 +2617,7 @@ listpdf
 play
 ytmp3
 ytmp4
+mediafire 
 sound1 - sound161`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
