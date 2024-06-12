@@ -2527,6 +2527,7 @@ backup
 getcase
 addowner
 delowner
+remini
 
 ╰┈➤ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
 closetime
