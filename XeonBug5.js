@@ -1648,7 +1648,26 @@ await XeonBotInc.sendMessage(m.chat,{
     caption: ytc
 },{quoted:m})
 }
-break
+break 
+  case 'mediafire': {
+  	if (!args[0]) return replygcxeon(`Enter the mediafire link next to the command`)
+    if (!args[0].match(/mediafire/gi)) return replygcxeon(`Link incorrect`)
+    const { mediafiredl } = require('@bochilteam/scraper')
+    let full = /f$/i.test(command)
+    let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
+    let res = await mediafiredl(args[0])
+    let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
+    let caption = `
+   ≡ *MEDIAFIRE*
+
+▢ *Number:* ${filename}
+▢ *Size:* ${filesizeH}
+▢ *Extension:* ${ext}
+▢ *Uploaded:* ${aploud}
+`.trim()
+    XeonBotInc.sendMessage(m.chat, { document : { url : url}, fileName : filename, mimetype: ext }, { quoted : m })
+    }
+break				
 case 'sound1':
 case 'sound2':
 case 'sound3':
