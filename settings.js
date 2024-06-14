@@ -18,7 +18,7 @@ global.author = '\n\n\n\n\n\n\n\n\n\nɪᴛᴢ ᴍᴇ ᴋʟᴡ : ꜱᴀɪʀᴇɴ\
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "Nero Bot Inc."
+global.wm = "Xd Bot Inc."
 
 //theme link
 global.link = ''
