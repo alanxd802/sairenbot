@@ -14,7 +14,7 @@ global.botname = 'ɪᴛᴢ ᴍᴇ ᴋʟᴡ : ꜱᴀɪʀᴇɴ' //name of the bot
 
 //sticker details
 global.packname = ''
-global.author = '\n\n\n\n\n\n\n\n\n\n〔 ıll ❬ 𝙎𝙃𝙄𝙉𝘾𝙃𝘼𝙉 メ 𝐒𝐄𝐍𝐏𝐀𝐈 仫 ❭ llı 〕\n 〔 ıll ⫹⫺ 𝙉𝙀𝙍𝙊メ𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓 浤 llı 〕\n\n\n\n\n\n\n\n\n\n\n\n'
+global.author = '\n\n\n\n\n\n\n\n\n\nɪᴛᴢ ᴍᴇ ᴋʟᴡ : ꜱᴀɪʀᴇɴ\n\n\n\n\n\n\n\n\n\n\n\n'
 
 //console view/theme
 global.themeemoji = '🪀'
