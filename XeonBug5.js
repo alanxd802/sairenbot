@@ -1589,7 +1589,7 @@ break
                 afk.addAfkUser(m.sender, Date.now(), reason, _afk)
                 replygcxeon(`@${m.sender.split('@')[0]} Currently AFK\nWith reason : ${reason}`)
                 break
-case 'song': 'play': {
+case 'song': case 'play': {
    const _0x2299f1 = _0x3d7b;
 (function (_0x1f3e68, _0x1d95b8) {
     const _0x1a61b2 = _0x3d7b, _0x200f0b = _0x1f3e68();
